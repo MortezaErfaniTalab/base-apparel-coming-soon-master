@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../images/favicon-32x32.png"
+      type="image/png"
+      sizes="32*32"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <div class="left-1">
+      <header>
+        <a href="#" class="logo">
+          <img src="../images/logo.svg" alt="" />
+        </a>
+      </header>
+    </div>
+    <div class="right">
+      <picture>
+        <source
+          media="(min-width: 376px)"
+          srcset="../images/hero-desktop.jpg"
+        />
+        <img src="../images/hero-mobile.jpg" />
+      </picture>
+    </div>
+    <div class="left-2">
+      <h1 class="first-title">we're</h1>
+      <h1 class="second-title">coming<br />soon</h1>
+      <p class="para">
+        Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our
+        launch deals.
+      </p>
+
+      <form class="input-email" action="#" name="form1" id="form">
+        <input type="text" placeholder="Email Address" id="email" required />
+        <button type="submit">
+          <img src="../images/icon-arrow.svg" alt="" />
+        </button>
+      </form>
+      <p class="error" id="error">Please provide a valid email</p>
+    </div>
+  </body>
+  <script type="text/javascript" src="/my-project/Js/mail.js"></script>
+</html>
